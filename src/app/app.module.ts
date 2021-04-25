@@ -8,6 +8,11 @@ import { ReceptenComponent } from './recepten/recepten.component';
 import { ChallengesComponent } from './challenges/challenges.component';
 import { FotochallengesComponent } from './fotochallenges/fotochallenges.component';
 import { WandelingenComponent } from './wandelingen/wandelingen.component';
+import { MaterialModule } from './material/material.module';
+import { MatListModule } from '@angular/material/list';
+import { MatIconModule } from '@angular/material/icon';
+import { MatCardModule } from '@angular/material/card';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -20,7 +25,12 @@ import { WandelingenComponent } from './wandelingen/wandelingen.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MaterialModule,
+    FlexLayoutModule,
+    MatListModule,
+    MatIconModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

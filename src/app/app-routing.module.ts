@@ -5,6 +5,10 @@ import { FotochallengesComponent } from './fotochallenges/fotochallenges.compone
 import { MemesComponent } from './memes/memes.component';
 import { ReceptenComponent } from './recepten/recepten.component';
 import { WandelingenComponent } from './wandelingen/wandelingen.component';
+import { MatListModule } from '@angular/material/list';
+import { MatIconModule } from '@angular/material/icon';
+import { MatCardModule } from '@angular/material/card';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 const routes: Routes = [
   {path: 'memes', component:MemesComponent},
